@@ -8,10 +8,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  // <CHANGE> Updated metadata for VirusTotal Scanner
-  title: "VirusTotal Scanner - File Security Analysis",
+  title: "HashEye - Malware Detection by Hash",
   description:
-    "Scan files for malware and threats using VirusTotal. Fast, accurate threat detection powered by leading antivirus engines.",
+    "Rapid verdicts powered by petabyte-scale telemetry. Scan files for malware and threats using VirusTotal with HashEye.",
   generator: "v0.app",
   icons: {
     icon: [
